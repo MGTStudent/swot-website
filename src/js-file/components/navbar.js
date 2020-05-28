@@ -33,7 +33,7 @@ class navbar extends Component {
                         <Col className="menu-col" xs={8}>
                             <div className="menu-list-div">
                                 <ul className="menu-list-container">
-                                    <li className="menu-list" onClick={() => document.location.href='https://surawit-w.github.io/swot-website/'} style={ home === 1 && btnActive === 0 ? { color: "#f16f20" } : { color: "#F3B06E" } }> HOME </li>
+                                    <li className="menu-list" onClick={() => document.location.href='https://mgtstudent.github.io/swot-website/'} style={ home === 1 && btnActive === 0 ? { color: "#f16f20" } : { color: "#F3B06E" } }> HOME </li>
                                     <li className="menu-list" onClick={() => this.props.history.push('/howto')} style={ home === 2 && btnActive === 0 ? { color: "#f16f20" } : { color: "#F3B06E" } }>HOW TO USE</li>
                                     <li className="menu-list" onClick={() => this.props.history.push('/swot-info')} style={ swot === 2 && btnActive === 0 ? { color: "#f16f20" } : { color: "#F3B06E" } }>SWOT</li>
                                     <li className="menu-list" onClick={() => this.props.history.push('/olc-info')} style={ swot === 3 && btnActive === 0 ? { color: "#f16f20" } : { color: "#F3B06E" } }>OLC</li>
@@ -47,7 +47,7 @@ class navbar extends Component {
                                     <div className="res-menu-list-icon-div">
                                         <FaList className="res-menu-list-icon" />
                                         <div className="res-menu-list-dropdown">
-                                            <div class="res-menu-list-btn first" id="homeBtn"><a onClick={() => document.location.href='https://surawit-w.github.io/swot-website/'} id="homeLink">หน้าหลัก</a></div>
+                                            <div class="res-menu-list-btn first" id="homeBtn"><a onClick={() => document.location.href='https://mgtstudent.github.io/swot-website/'} id="homeLink">หน้าหลัก</a></div>
                                             <div class="res-menu-list-btn" id="categoryBtn"><a onClick={() => this.props.history.push('/howto')} id="homeLink">วิธีการใช้งาน</a></div>
                                             <div class="res-menu-list-btn" id="categoryBtn"><a onClick={() => this.props.history.push('/swot-info')} id="homeLink">SWOT</a></div>
                                             <div class="res-menu-list-btn" id="categoryBtn"><a onClick={() => this.props.history.push('/olc-info')} id="homeLink">OLC</a></div>

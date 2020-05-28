@@ -133,6 +133,7 @@ class howtoPage extends Component {
                       fontSize: "2em",
                       color: "#f16f20",
                       justifyContent: "center",
+                      lineHeight: "1.5"
                     }}
                   >
                     คู่มือการทำ SWOT Analysis + Organization Life Cycle (OLC)

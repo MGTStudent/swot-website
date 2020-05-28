@@ -29,7 +29,7 @@ export default class swotInfoPage extends Component {
             <div>
                 <Navbar swot={btnActive} />
                 <div className="linkback">
-                    <p onClick={() => { this.props.history.push("https://mgtstudent.github.io/swot-website/"); window.scrollTo(0, 0); }}> HOME >{" "}
+                    <p onClick={() => { document.location.href='https://mgtstudent.github.io/swot-website/'; window.scrollTo(0, 0); }}> HOME >{" "}
                         <span style={{ color: "#f16f20" }} onClick={() => { this.props.history.push("/swot-result"); window.scrollTo(0, 0); }}>SWOT</span>
                     </p>
                 </div>

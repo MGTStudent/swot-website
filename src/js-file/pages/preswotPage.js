@@ -25,7 +25,7 @@ export default class preswotPage extends Component {
         <div className="linkback">
           <p
             onClick={() => {
-              this.props.history.push('https://mgtstudent.github.io/swot-website/'); window.scrollTo(0, 0)
+              document.location.href='https://mgtstudent.github.io/swot-website/'; window.scrollTo(0, 0)
             }}
           >
             HOME > SWOT >{" "}

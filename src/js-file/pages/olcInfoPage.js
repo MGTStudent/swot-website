@@ -33,7 +33,7 @@ class olcInfoPage extends Component {
         <div className="linkback">
           <p
             onClick={() => {
-              this.props.history.push("https://mgtstudent.github.io/swot-website/");
+              document.location.href='https://mgtstudent.github.io/swot-website/'
               window.scrollTo(0, 0);
             }}
           >

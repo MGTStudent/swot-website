@@ -135,7 +135,7 @@ class howtoPage extends Component {
                       justifyContent: "center",
                     }}
                   >
-                    คู่มือการทำ SWOT+OLC Analysis
+                    คู่มือการทำ SWOT Analysis + Organization Life Cycle (OLC)
                     <br />
                   </span>
                   <br />
